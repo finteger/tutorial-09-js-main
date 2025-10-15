@@ -17,7 +17,7 @@ switch(age){
     case age >= 18:
         console.log("You are permitted to vote");
         break;
-    case age < 18 || age >= 1:
+    case age < 18 && age >= 1:
         console.log("You are not permitted to vote");
         break;
     default:
